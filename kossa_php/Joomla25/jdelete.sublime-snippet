@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+\$conditions = array(
+    \$db->quoteName('user_id') . '=1001', 
+    \$db->quoteName('profile_key') . '=\'custom.%\''
+);
+ 
+\$query->delete(\$db->quoteName('#__user_profiles'));
+\$query->where(\$conditions);
+ 
+\$db->setQuery(\$query);
+ 
+ 
+\$result = \$db->query();
+]]></content>
+	<tabTrigger>jdelete</tabTrigger>
+	<description>Delete in database Joomla</description>
+</snippet>

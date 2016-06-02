@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$view   = \$this->getView('${1:view_name}', 'html'); //get the view
+\$view->assignRef('${2:variable_name}', ${3:value});
+\$view->display(); // display the view
+]]></content>
+	<tabTrigger>jview</tabTrigger>
+	<description>Display view in controller for Joomla</description>
+</snippet>

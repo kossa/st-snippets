@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<jdoc:include type="modules" name="${1:Name of position}" style="xhtml" />
+]]></content>
+	<tabTrigger>modules</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>Afficher le Code de modules Joomla en php</description>
+</snippet>

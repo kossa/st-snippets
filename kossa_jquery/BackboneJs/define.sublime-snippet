@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+define([
+    '${1:backbone}'
+], function(${2:Backbone}){
+    $0
+});
+]]></content>
+	<tabTrigger>define</tabTrigger>
+    <description>define RequireJs</description>
+	<scope>source.js</scope>
+</snippet>

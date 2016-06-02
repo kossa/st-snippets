@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").lt("$2");
+]]></content>
+	<tabTrigger>lt</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

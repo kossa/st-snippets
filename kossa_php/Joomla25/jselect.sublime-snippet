@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+\$db = JFactory::getDBO();
+\$query = \$db->getQuery(true);		
+\$query
+    ->select(\$db->quoteName(array('user_id', 'profile_key', 'profile_value', 'ordering')))
+    ->from(\$db->quoteName('#__user_profiles'))
+    ->where(\$db->quoteName('profile_key') . ' LIKE '. \$db->quote('\'custom.%\''))
+    ->order('ordering ASC');
+
+\$db->setQuery(\$query);
+\$results = \$db->loadObjectList();
+return \$results
+]]></content>
+	<tabTrigger>jselect</tabTrigger>
+	<description>Select in database Joomla</description>
+</snippet>

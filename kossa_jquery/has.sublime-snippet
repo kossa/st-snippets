@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").has($2);
+]]></content>
+	<tabTrigger>has</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

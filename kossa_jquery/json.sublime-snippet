@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$.getJSON('${1:data.json}', function(data) {
+	$0
+}
+]]></content>
+	<tabTrigger>json</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

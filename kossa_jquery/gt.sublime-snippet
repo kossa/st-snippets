@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").gt($2);
+]]></content>
+	<tabTrigger>gt</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

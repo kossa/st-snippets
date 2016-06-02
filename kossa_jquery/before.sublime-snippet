@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").before("$0")
+]]></content>
+	<tabTrigger>before</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

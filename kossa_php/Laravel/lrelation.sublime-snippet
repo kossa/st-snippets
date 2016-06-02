@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public function ${1:items}()
+{
+    return \$this->${2:belongsTo}(${3:Item}::class);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lrelation</tabTrigger>
+	<description>Laravel - Generate a reltion in model</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

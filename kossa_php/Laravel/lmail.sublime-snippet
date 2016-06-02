@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+Mail::send('${1:emails.reminder}', [${2:'user' => \$user}], function (\$m) use (\$user) {
+    \$m->from('hello@app.com', 'Your Application');
+
+    \$m->to(\$user->email, \$user->name)->subject('Your Reminder!');
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lmail</tabTrigger>
+	<description>Laravel: Send mail</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

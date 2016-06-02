@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").nextAll("$2");
+]]></content>
+	<tabTrigger>nextAll</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

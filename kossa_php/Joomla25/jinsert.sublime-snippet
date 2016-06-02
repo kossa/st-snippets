@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$object = new stdClass();
+\$object->user_id = 1001;
+return JFactory::getDbo()->insertObject('#__user_profiles', \$object);
+
+]]></content>
+	<tabTrigger>jinsert</tabTrigger>
+	<description>Insert in database Joomla</description>
+</snippet>

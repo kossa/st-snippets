@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[outline: ${1:1}px ${2:solid} #${3:999};$0]]></content>
+    <description>outline:</description>
+    <scope>source.css,source.scss</scope>
+    <tabTrigger>ol</tabTrigger>
+</snippet>

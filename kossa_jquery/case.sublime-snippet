@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+case "$1":
+	$2
+	break;
+case$3
+}
+]]></content>
+	<tabTrigger>case</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

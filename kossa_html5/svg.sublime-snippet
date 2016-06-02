@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<embed src="${1:Nom de svg}.svg" width="$2" height="$3" type="image/svg+xml"/>
+]]></content>
+	<tabTrigger>svg</tabTrigger>
+	<description>svg:HTML</description>
+</snippet>

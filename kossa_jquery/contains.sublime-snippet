@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").contains("$0");
+]]></content>
+	<tabTrigger>contains</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

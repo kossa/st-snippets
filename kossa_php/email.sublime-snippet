@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+\$nom = \$_GET['nom'];
+	\$msg = \$nom."\n".\$_GET['message'];
+	\$mail2 = \$_GET['mail2'];
+
+	
+	 \$headers .= 'To: hadjikouceyla@gmail.com' . "\r\n";
+     \$headers .= 'From: '.\$mail2. "\r\n";
+
+
+
+	\$to = "hadjikouceyla@gmail.com";
+	\$subject = "contact imaginical";
+	mail(\$to,\$subject,\$msg, \$headers);
+]]></content>
+	<tabTrigger>email</tabTrigger>
+	<description>Envoi de Mail en php</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

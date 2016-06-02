@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").prependTo($2);
+]]></content>
+	<tabTrigger>prependTo</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

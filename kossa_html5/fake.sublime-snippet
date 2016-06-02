@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<img src="http://fakeimg.pl/$1x$2/282828/eae0d0/" alt="">
+]]></content>
+	<tabTrigger>fake</tabTrigger>
+	<description>Placeholder For images:HTML</description>
+</snippet>

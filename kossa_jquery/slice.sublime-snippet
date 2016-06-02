@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").slice($2,$3);
+]]></content>
+	<tabTrigger>slice</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Backbone.Collection.extend({
+    model: ${1:model_name},
+    
+    initialize: function(){
+
+    },
+});
+
+]]></content>
+	<tabTrigger>collection</tabTrigger>
+    <description>New Collection Backbone</description>
+	<scope>source.js</scope>
+</snippet>

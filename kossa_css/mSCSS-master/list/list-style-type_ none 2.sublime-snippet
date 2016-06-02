@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[list-style-type: none;$0]]></content>
+    <description>list-style-type: none</description>
+    <scope>source.css,source.scss</scope>
+    <tabTrigger>lstn</tabTrigger>
+</snippet>

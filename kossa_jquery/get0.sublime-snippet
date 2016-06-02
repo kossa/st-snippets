@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$.get(
+		"${1:test.cgi}", 
+		{ ${2:Var}: "${3:Val}",$4 },
+		function(data){
+			alert("Data Loaded: " + data);
+		});
+]]></content>
+	<tabTrigger>get0</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

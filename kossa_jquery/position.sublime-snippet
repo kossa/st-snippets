@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").position(${2:top:"$3", left:"$4"});
+]]></content>
+	<tabTrigger>position</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

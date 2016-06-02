@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+@font-face {
+  font-family: '$1';
+  src: url('../fonts/$2.eot');
+  src: local('../fonts/$2'),
+    url('../fonts/$2.woff') format('woff'),
+    url('../fonts/$2.ttf') format('truetype'),
+    url('../fonts/$2.otf') format('opentype'),
+    url('../fonts/$2.svg') format('svg');
+}
+]]></content>
+	<tabTrigger>face</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

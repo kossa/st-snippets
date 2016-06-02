@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+@media screen and (max-width: 1200px){
+	
+}
+@media screen and (max-width: 991px){
+	
+}
+@media screen and (max-width: 767px){
+
+}
+@media screen and (max-width: 480px){
+
+}
+]]></content>
+	<tabTrigger>tbmedia</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

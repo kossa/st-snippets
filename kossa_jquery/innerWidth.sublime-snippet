@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").innerWidth("$2");
+]]></content>
+	<tabTrigger>innerWidth</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

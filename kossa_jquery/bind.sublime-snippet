@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").bind("$2", function() {
+	$0
+});
+]]></content>
+	<tabTrigger>bind</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

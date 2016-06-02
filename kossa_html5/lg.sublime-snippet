@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+col-lg-$1
+]]></content>
+	<tabTrigger>lg</tabTrigger>
+	<description>Bs3::Large > 1200</description>
+</snippet>

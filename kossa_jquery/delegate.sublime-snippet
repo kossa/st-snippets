@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").delegate("td", "click", function(){
+	\$(this).addClass("hightlight");
+});
+]]></content>
+	<tabTrigger>delegate</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

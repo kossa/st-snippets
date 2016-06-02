@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+defined('_JEXEC') or die('Restricted access');?>
+<?php echo \$this->message; ?>
+
+]]></content>
+	<tabTrigger>default_file</tabTrigger>
+	<description>le fichier /site/views/minimum/tmpl/default.php</description>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[@include text-shadow($1);$2 ]]></content>
+	<tabTrigger>ts</tabTrigger>
+	<scope>source.scss</scope>
+</snippet>

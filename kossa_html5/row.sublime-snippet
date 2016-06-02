@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<div class="row">
+	$0
+</div>
+]]></content>
+	<tabTrigger>row</tabTrigger>
+	<description>Bs3::Row</description>
+</snippet>

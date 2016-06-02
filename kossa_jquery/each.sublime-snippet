@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").each(function(){
+	\$(this).$2();
+});
+]]></content>
+	<tabTrigger>each</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

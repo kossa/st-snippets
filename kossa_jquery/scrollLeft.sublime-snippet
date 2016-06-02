@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").scrollLeft($2);
+]]></content>
+	<tabTrigger>scrollLeft</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

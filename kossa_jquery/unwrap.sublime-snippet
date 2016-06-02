@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").unwrap($2);
+]]></content>
+	<tabTrigger>unwrap</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

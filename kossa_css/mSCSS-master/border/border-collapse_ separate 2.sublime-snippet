@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[border-collapse: separate;$0]]></content>
+    <description>border-collapse: separate</description>
+    <scope>source.css,source.scss</scope>
+    <tabTrigger>bcs</tabTrigger>
+</snippet>

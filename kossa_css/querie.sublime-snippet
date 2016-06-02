@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+@media screen and (${1:max}-width: $2px){
+	$0
+}/* mediaquery */ 
+]]></content>
+	<tabTrigger>mediaQuery</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

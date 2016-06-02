@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").insertAfter("$2");
+]]></content>
+	<tabTrigger>insertAfter</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

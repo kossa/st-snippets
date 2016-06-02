@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->countModules('$1')
+]]></content>
+	<tabTrigger>count_modules</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>Count modules Joomla en php</description>
+</snippet>

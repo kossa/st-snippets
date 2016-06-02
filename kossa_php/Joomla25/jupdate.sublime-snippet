@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$object = new stdClass();
+\$object->id = 1;
+\$object->title = 'My Custom Record';
+return JFactory::getDbo()->updateObject('#__user_profiles', \$object, 'id');
+
+]]></content>
+	<tabTrigger>jupdate</tabTrigger>
+	<description>Insert in database Joomla</description>
+</snippet>

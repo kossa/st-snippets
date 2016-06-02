@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<div class="col-md-$1">$0</div>
+]]></content>
+	<tabTrigger>cmd</tabTrigger>
+	<description>Bs3::Medium > 992</description>
+</snippet>

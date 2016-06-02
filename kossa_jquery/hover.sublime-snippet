@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").hover(function(){//  executer lors du sorvol
+		$2
+	}, 
+	function(){//  executer lors du sortie
+		$3
+	});
+]]></content>
+	<tabTrigger>hover</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

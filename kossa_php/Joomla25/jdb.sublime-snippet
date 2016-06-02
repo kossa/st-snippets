@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$db = JFactory::getDBO();
+\$query = \$db->getQuery(TRUE);
+
+]]></content>
+	<tabTrigger>jdb</tabTrigger>
+	<description>Data base Joomla</description>
+</snippet>

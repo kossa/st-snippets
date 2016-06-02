@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$jinput = JFactory::getApplication()->input;
+\$$1 = \$jinput->get('$1','', 'STRING');
+]]></content>
+	<tabTrigger>jinput</tabTrigger>
+	<description>Input in Joomla</description>
+</snippet>

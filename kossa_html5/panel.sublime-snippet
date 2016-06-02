@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="panel panel-default">
+    <div class="panel-heading">${1:Panel heading without title}</div>
+    <div class="panel-body">
+        ${2:Panel content}
+    </div>
+</div>
+]]></content>
+	<tabTrigger>panel</tabTrigger>
+	<description>Bs3::pannel</description>
+</snippet>

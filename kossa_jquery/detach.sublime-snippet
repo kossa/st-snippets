@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").detach();
+]]></content>
+	<tabTrigger>detach</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

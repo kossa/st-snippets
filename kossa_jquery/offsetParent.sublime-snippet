@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").offsetParent($2);
+]]></content>
+	<tabTrigger>offsetParent</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

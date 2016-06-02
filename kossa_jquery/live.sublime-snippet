@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").live("$2",function(){
+	\$(this).$3
+});
+]]></content>
+	<tabTrigger>live</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[@include background-image( linear-gradient(top,$1,$2) ) ]]></content>
+	<tabTrigger>lg</tabTrigger>
+	<scope>source.scss</scope>
+</snippet>

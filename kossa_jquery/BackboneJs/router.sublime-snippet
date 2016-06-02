@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+Backbone.Router.extend({
+    
+    routes: {
+        "": "${1:index}"   // #
+    },
+
+    ${1:index}: function(){
+        
+    },
+
+});
+
+]]></content>
+	<tabTrigger>router</tabTrigger>
+    <description>New Router Backbone</description>
+	<scope>source.js</scope>
+</snippet>

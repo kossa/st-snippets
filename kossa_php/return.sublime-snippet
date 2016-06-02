@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+return;$0
+]]></content>
+	<tabTrigger>ret</tabTrigger>
+	<description>Afficher return</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

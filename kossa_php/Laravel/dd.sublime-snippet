@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+dd($1);
+]]></content>
+	<tabTrigger>dd</tabTrigger>
+	<description>dd php</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

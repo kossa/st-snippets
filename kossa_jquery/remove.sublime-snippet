@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").remove();
+]]></content>
+	<tabTrigger>remove</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

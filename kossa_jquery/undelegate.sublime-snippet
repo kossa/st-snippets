@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").undelegate($2, ${3:click});
+]]></content>
+	<tabTrigger>undelegate</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$user = JFactory::getUser();
+]]></content>
+	<tabTrigger>juser</tabTrigger>
+	<description>User in Joomla</description>
+</snippet>

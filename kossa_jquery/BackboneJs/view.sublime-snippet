@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+Backbone.View.extend({
+    
+    el: "$1",
+
+    events: {
+        "click .icon": "open",
+    },
+
+    initialize: function() {
+        //this.listenTo(this.model, "change", this.render);
+    },
+
+    render: function() {
+        $0
+    }
+});
+
+]]></content>
+	<tabTrigger>view</tabTrigger>
+    <description>New View Backbone</description>
+	<scope>source.js</scope>
+</snippet>

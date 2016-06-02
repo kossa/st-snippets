@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+col-sm-$1
+]]></content>
+	<tabTrigger>sm</tabTrigger>
+	<description>Bs3::Small > 768</description>
+</snippet>

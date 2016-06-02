@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$.fn.${1:nom de la fonction} = function(${2:arg}){
+	// utilisation de (this) pour l'objet courant
+	return this; // pour remettre le chaînage
+};
+\$("${4:la cible}").$1($6, $7);
+]]></content>
+	<tabTrigger>fn</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

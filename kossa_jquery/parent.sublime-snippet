@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").parent($2);
+]]></content>
+	<tabTrigger>parent</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+\$faker = Faker\Factory::create();
+
+${1:Model}::truncate();
+
+\$data = [];
+
+for(\$i = 1; \$i <= ${2:nb} ; \$i++) {
+    array_push(\$data, [
+        '${3:fied}' => \$faker->${4:type},
+        $0
+    ]);
+}
+
+${1:Model}::insert(\$data);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>faker-seed</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

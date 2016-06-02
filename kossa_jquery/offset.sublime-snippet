@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").offset(${2:{ top: $3, left: $4 }});
+]]></content>
+	<tabTrigger>offset</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

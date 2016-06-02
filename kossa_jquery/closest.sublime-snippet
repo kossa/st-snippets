@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").closest($0);
+]]></content>
+	<tabTrigger>closest</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

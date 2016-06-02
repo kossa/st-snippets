@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<object type="application/x-shockwave-flash" 
+         data="$1.swf" 
+         width="$2" height="$3">
+   <param name="movie" value="$4.swf" /> 
+   <param name="wmode" value="transparent" />
+   <p>$5</p> 
+</object>
+$0
+]]></content>
+	<tabTrigger>flash</tabTrigger>
+</snippet>

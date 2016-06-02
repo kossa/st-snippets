@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+<?PHP
+defined('_JEXEC') or die('Restricted access');
+
+/* importation de JModelItem, classe de modèle de base de Joomla */
+jimport('joomla.application.component.modelitem');
+
+/*
+ * Spécialisation de JModelItem pour notre composant
+ */
+class ${1:Nom_Composant_A}Model${2:Nom_model_A} extends JModelItem
+{
+
+    protected \$message;
+    
+    public function getMessage() 
+    {
+        if (!isset(\$this->message)) 
+        {
+            \$this->message = 'mon premier composant d&eacute;velopp&eacute en Joomla 1.6';
+        }
+        return \$this->message;
+    }
+}
+
+]]></content>
+	<tabTrigger>model_file</tabTrigger>
+	<description>le fichier /models/xxx.php</description>
+</snippet>

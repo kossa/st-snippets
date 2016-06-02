@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").toggle(function(){//executer cette fonc
+		$2
+	}, 
+	function(){//ensuite celle ci
+		$3
+	});
+]]></content>
+	<tabTrigger>toggle</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

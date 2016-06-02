@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").slideUp($2);
+]]></content>
+	<tabTrigger>slideUp</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

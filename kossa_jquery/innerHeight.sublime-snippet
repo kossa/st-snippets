@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").innerHeight("$2");
+]]></content>
+	<tabTrigger>innerHeight</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

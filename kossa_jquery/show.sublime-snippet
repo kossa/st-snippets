@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").show(${2:slow/normal/fast/milliseconde});
+]]></content>
+	<tabTrigger>show</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

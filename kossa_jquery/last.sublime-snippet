@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").last("$2");
+]]></content>
+	<tabTrigger>last</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

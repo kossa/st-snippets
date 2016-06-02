@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @api \{${1:get}\} /${2:url} ${3:desciption_of_method}
+ * @apiGroup ${5:name_in_menu}
+ *
+ * @apiParam \{${6:String}\} ${7:param_name} ${8:description_of_param_name}.
+ *
+ * @apiVersion ${9:0.1.0}
+ * @apiSuccess \{${10:String}\} ${11:param_name} ${12:description_of_param_name}.
+ */
+    
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>apidoc</tabTrigger>
+    <description>Generate api block</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

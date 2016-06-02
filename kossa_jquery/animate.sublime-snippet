@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").animate({
+	$2 : $3,
+	},
+	"${4:slow/normal/fast/milliseconde}",
+	${5:fcn de callback}
+); 
+]]></content>
+	<tabTrigger>animate</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

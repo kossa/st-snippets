@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").wrapInner($2);
+]]></content>
+	<tabTrigger>wrapInner</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

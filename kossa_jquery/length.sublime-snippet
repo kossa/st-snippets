@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").length;
+]]></content>
+	<tabTrigger>length</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

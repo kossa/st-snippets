@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+public function set${1:Photo}Attribute(\$value)
+{
+    \$photo_name = str_random(8);
+    \$photo = \$value;
+    \$this->attributes['${2:photo}'] = Helpers::MoveImg(\$photo, \$photo_name, '${3:news}.image')->basename;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lphoto</tabTrigger>
+	<description>Laravel - Move Image</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

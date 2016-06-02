@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$table->foreign('${1:user}_id')->references('id')->on('${1:user}s')->onDelete('cascade');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>foreign</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

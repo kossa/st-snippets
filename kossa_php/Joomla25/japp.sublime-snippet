@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$app = JFactory::getApplication();
+]]></content>
+	<tabTrigger>japp</tabTrigger>
+	<description>Application in Joomla</description>
+</snippet>

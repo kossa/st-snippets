@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+@media (min-width: 1200px){
+	
+}
+@media (max-width: 1200px){
+	
+}
+@media (max-width: 980px) {
+	
+}
+@media (max-width: 767px){
+	
+}
+@media (max-width: 480px) {
+	
+}
+]]></content>
+	<tabTrigger>tbdevices</tabTrigger>
+	<description>Bootstrap Devices kossa</description>
+	<scope>text.html</scope>
+</snippet>

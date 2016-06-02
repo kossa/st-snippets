@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="EXPIRES" CONTENT="-1"><!-- Mon, 22 Jul 2002 11:12:01 GMT -->
+$0	
+]]></content>
+	<tabTrigger>cache</tabTrigger>
+</snippet>

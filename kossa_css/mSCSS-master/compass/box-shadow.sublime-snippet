@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[@include box-shadow($1); ]]></content>
+	<tabTrigger>bs</tabTrigger>
+	<scope>source.scss</scope>
+</snippet>

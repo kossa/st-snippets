@@ -1,0 +1,124 @@
+<snippet>
+	<content><![CDATA[
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+
+use App\\${1:Name};
+use Validator;
+
+class ${1:Name}sController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        \$items = ${1:Name}::all();
+
+        return view('admin.${2:name}s.index', compact('items'));
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        return view('admin.${2:name}s.create');
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  \$request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request \$request)
+    {
+        \$validator = Validator::make(\$request->all(), ${1:Name}::rules());
+
+        if (\$validator->fails()) {
+            return back()->withInput()->withErrors(\$validator);
+        }
+
+        
+        ${1:Name}::create(\$request->all());
+
+        return back()->withSuccess(trans('app.success_store'));
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  \$id
+     * @return \Illuminate\Http\Response
+     */
+    public function show(\$id)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  \$id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit(\$id)
+    {
+        \$item = ${1:Name}::findOrFail(\$id);
+
+        return view('admin.${2:name}s.edit', compact('item'));
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  \$request
+     * @param  int  \$id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request \$request, \$id)
+    {
+        \$validator = Validator::make(\$request->all(), ${1:Name}::rules(true));
+
+        if (\$validator->fails()) {
+            return back()->withErrors(\$validator);
+        }
+
+        \$item = ${1:Name}::findOrFail(\$id);
+
+        \$item->update(\$request->all());
+
+        return back()->withSuccess(trans('app.success_update'));
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  \$id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(\$id)
+    {
+        ${1:Name}::destroy(\$id);
+
+        return redirect()->route(ADMIN . '.${2:name}s.index')->withSuccess(trans('app.success_destroy')); 
+    }
+}
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lcontroller</tabTrigger>
+	<description>Generate a controller for Laravel</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

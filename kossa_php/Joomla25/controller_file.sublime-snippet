@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<?PHP
+defined('_JEXEC') or die('Restricted access');
+
+jimport('joomla.application.component.controller');
+
+class ${1:nom_de_composant_commencer_par_Majuscule}Controller extends JController
+{
+	$0
+}
+]]></content>
+	<tabTrigger>controller_file</tabTrigger>
+	<description>le fichier controller.php</description>
+</snippet>

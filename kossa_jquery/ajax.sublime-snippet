@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$.ajax({
+   type: "${1:POST}",
+   url: "${2:some.php}",
+   data: "${3:name=John&location=Boston}",
+   success: function(msg){
+     alert( "Data Saved: " + msg );
+   }
+ });
+]]></content>
+	<tabTrigger>ajax</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

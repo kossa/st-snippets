@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$("#$1").fins($2);
+]]></content>
+	<tabTrigger>fins</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

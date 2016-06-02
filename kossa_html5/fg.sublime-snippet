@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	${1:<label for="${2:exampleInputEmail1}">${3:Email address}</label>}
+    <input type="${4:text}" class="form-control" id="${2:exampleInputEmail1}" placeholder="${5:Email}">
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fg</tabTrigger>
+	<description>Bootstra Form-group</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

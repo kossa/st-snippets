@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+print_r($1)
+]]></content>
+	<tabTrigger>print_r</tabTrigger>
+	<description>Print_r</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

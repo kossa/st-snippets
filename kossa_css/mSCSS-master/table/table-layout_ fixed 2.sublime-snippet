@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[table-layout: fixed;$0]]></content>
+    <description>table-layout: fixed</description>
+    <scope>source.css,source.scss</scope>
+    <tabTrigger>tlf</tabTrigger>
+</snippet>
