@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::open([
+    'class'=>'${1:delete}',
+    'url'  => route(${2:ADMIN . '.places.destroy'}, \$item->id), 
+    'method' => 'DELETE',
+    ])
+!!}
+
+    <button class="btn btn-danger btn-xs" title=""><i class="fa fa-trash"></i></button>
+    
+{!! Form::close() !!}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lformdelete</tabTrigger>
+	<description>Laravel - Form Delete</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

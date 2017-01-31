@@ -1,27 +1,27 @@
 <snippet>
 	<content><![CDATA[
 
-    /*
-    |------------------------------------------------------------------------------------
-    | Validations
-    |------------------------------------------------------------------------------------
-    */
-    public static function rules(\$update = false)
-    {
-        \$commun = [
-            'name'    => 'required',
-        ];
+/*
+|------------------------------------------------------------------------------------
+| Validations
+|------------------------------------------------------------------------------------
+*/
+public static function rules(\$update = false)
+{
+    \$commun = [
+        'name'    => 'required',
+    ];
 
-        if (\$update) {
-            return \$commun;
-        }
-
-        \$create = array_merge(\$commun, [
-            'password' => 'required|confirmed',
-        ]);
-
-        return \$create;
+    if (\$update) {
+        return \$commun;
     }
+
+    \$create = array_merge(\$commun, [
+        'password' => 'required|confirmed',
+    ]);
+
+    return \$create;
+}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>lrules</tabTrigger>

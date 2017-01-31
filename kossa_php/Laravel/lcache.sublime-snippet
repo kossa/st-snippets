@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+return Cache::remember('${1:name}', ${2:30}, function() {
+    return \$q->$0;
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lcache</tabTrigger>
+	<description>Generate a cache remember for Laravel</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

@@ -2,13 +2,9 @@
 	<content><![CDATA[
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
+use Illuminate\Http\Request;
 use App\\${1:Name};
-use Validator;
 
 class ${1:Name}sController extends Controller
 {
@@ -42,12 +38,7 @@ class ${1:Name}sController extends Controller
      */
     public function store(Request \$request)
     {
-        \$validator = Validator::make(\$request->all(), ${1:Name}::rules());
-
-        if (\$validator->fails()) {
-            return back()->withInput()->withErrors(\$validator);
-        }
-
+        \$this->validate(\$request, ${1:Name}::rules());
         
         ${1:Name}::create(\$request->all());
 
@@ -87,11 +78,7 @@ class ${1:Name}sController extends Controller
      */
     public function update(Request \$request, \$id)
     {
-        \$validator = Validator::make(\$request->all(), ${1:Name}::rules(true));
-
-        if (\$validator->fails()) {
-            return back()->withErrors(\$validator);
-        }
+        \$this->validate(\$request, ${1:Name}::rules());
 
         \$item = ${1:Name}::findOrFail(\$id);
 

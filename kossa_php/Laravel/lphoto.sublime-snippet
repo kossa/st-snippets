@@ -1,10 +1,16 @@
 <snippet>
 	<content><![CDATA[
-public function set${1:Photo}Attribute(\$value)
+public function get${1:Photo}Attribute(\$value)
 {
-    \$photo_name = str_random(8);
-    \$photo = \$value;
-    \$this->attributes['${2:photo}'] = Helpers::MoveImg(\$photo, \$photo_name, '${3:news}.image')->basename;
+	if (!\$value) {
+        return 'http://placehold.it/${2:400}x${2:400}';
+    }
+
+    return config('variables.${3:users_photo}.public').\$value;
+}
+public function set${1:Photo}Attribute(\$photo)
+{
+    \$this->attributes['${4:photo}'] = Helpers::MoveImg(\$photo, '${3:news}.image')->basename;
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
