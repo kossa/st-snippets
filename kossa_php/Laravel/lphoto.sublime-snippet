@@ -10,7 +10,7 @@ public function get${1:Photo}Attribute(\$value)
 }
 public function set${1:Photo}Attribute(\$photo)
 {
-    \$this->attributes['${4:photo}'] = Helpers::MoveImg(\$photo, '${3:news}.image')->basename;
+    \$this->attributes['${4:photo}'] = move_file(\$photo, '${3:news}.image');
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
