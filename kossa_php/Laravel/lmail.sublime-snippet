@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 Mail::send('${1:emails.reminder}', [${2:'user' => \$user}], function (\$m) use (\$user) {
-    \$m->from('hello@app.com', 'Your Application');
+    \$m->from(config('mail.from.address'), config('mail.from.name'));
 
     \$m->to(\$user->email, \$user->name)->subject('Your Reminder!');
 });
